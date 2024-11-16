@@ -1,8 +1,43 @@
 *{
     margin: 0;
     padding: 0;
+    transition: all 0.3s;
 }
 header{
     display: flex;
     justify-content: space-between;
+}
+
+#cart-button i{
+    max-width: 42px;
+    max-height: 42px;
+}
+
+
+#cart-button {
+    background-color: rgb(250, 250, 250);
+    color: rgb(29, 29, 29);
+    border: none;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4.5px;
+}
+
+#cart-button:hover{
+    color: rgb(250, 250, 250);
+    background-color: rgb(29, 29, 29);
+    
+}
+
+header{
+    margin: 5vh 10vw;
+    background-color: rgb(49, 49, 49);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 3px;
+    
 }

@@ -1,0 +1,126 @@
+{
+
+   "products":[
+    {
+      "name": "Wüsthof Classic 8-Inch Chef's Knife",
+      "photo_url": "https://example.com/wusthof-chef.jpg",
+      "price": 150,
+      "description": "A versatile chef's knife with a high-carbon stainless steel blade and ergonomic handle."
+    },
+    {
+      "name": "Shun Classic 7-Inch Santoku Knife",
+      "photo_url": "https://example.com/shun-santoku.jpg",
+      "price": 175,
+      "description": "Japanese santoku knife with a VG-MAX core and Damascus cladding for precise slicing."
+    },
+    {
+      "name": "Victorinox Fibrox Pro 8-Inch Chef's Knife",
+      "photo_url": "https://example.com/victorinox-chef.jpg",
+      "price": 50,
+      "description": "Budget-friendly chef's knife with a comfortable grip and razor-sharp blade."
+    },
+    {
+      "name": "Zwilling J.A. Henckels Professional S 8-Inch Chef's Knife",
+      "photo_url": "https://example.com/zwilling-chef.jpg",
+      "price": 120,
+      "description": "Durable and well-balanced chef's knife with precision-forged stainless steel."
+    },
+    {
+      "name": "Global G-2 8-Inch Chef's Knife",
+      "photo_url": "https://example.com/global-chef.jpg",
+      "price": 130,
+      "description": "Lightweight Japanese knife with a seamless stainless steel design."
+    },
+    {
+      "name": "Miyabi Birchwood 8-Inch Chef's Knife",
+      "photo_url": "https://example.com/miyabi-birchwood.jpg",
+      "price": 350,
+      "description": "Premium chef's knife with SG2 micro-carbide steel and birchwood handle."
+    },
+    {
+      "name": "Mac Professional 8-Inch Chef's Knife",
+      "photo_url": "https://example.com/mac-pro-chef.jpg",
+      "price": 145,
+      "description": "Ultra-sharp Japanese knife with a thin blade and comfortable handle."
+    },
+    {
+      "name": "Dalstrong Shogun Series 8-Inch Chef's Knife",
+      "photo_url": "https://example.com/dalstrong-shogun.jpg",
+      "price": 130,
+      "description": "Beautifully crafted knife with a high-carbon VG10 steel blade."
+    },
+    {
+      "name": "Mercer Culinary Millennia 8-Inch Chef's Knife",
+      "photo_url": "https://example.com/mercer-millennia.jpg",
+      "price": 25,
+      "description": "Affordable chef's knife with a comfortable handle and sharp blade."
+    },
+    {
+      "name": "Tojiro DP Gyuto 8.2-Inch Chef's Knife",
+      "photo_url": "https://example.com/tojiro-gyuto.jpg",
+      "price": 90,
+      "description": "Japanese gyuto knife with VG-10 stainless steel and a composite handle."
+    },
+    {
+      "name": "Shun Premier 7-Inch Santoku Knife",
+      "photo_url": "https://example.com/shun-premier.jpg",
+      "price": 180,
+      "description": "Stylish knife with a hammered finish and razor-sharp edge."
+    },
+    {
+      "name": "Wüsthof Gourmet Paring Knife 3.5-Inch",
+      "photo_url": "https://example.com/wusthof-paring.jpg",
+      "price": 40,
+      "description": "Small knife for precision tasks like peeling and trimming."
+    },
+    {
+      "name": "Zwilling Pro Hollow Edge Rocking Santoku Knife 7-Inch",
+      "photo_url": "https://example.com/zwilling-santoku.jpg",
+      "price": 140,
+      "description": "Hollow-edge santoku knife for smooth slicing and dicing."
+    },
+    {
+      "name": "Kyocera Advanced Ceramic 6-Inch Chef's Knife",
+      "photo_url": "https://example.com/kyocera-chef.jpg",
+      "price": 45,
+      "description": "Ceramic knife for precise cuts and long-lasting sharpness."
+    },
+    {
+      "name": "Victorinox Swiss Army 3.25-Inch Paring Knife",
+      "photo_url": "https://example.com/victorinox-paring.jpg",
+      "price": 10,
+      "description": "Affordable paring knife for peeling and intricate work."
+    },
+    {
+      "name": "Messermeister Meridian Elite 8-Inch Chef's Knife",
+      "photo_url": "https://example.com/messermeister-chef.jpg",
+      "price": 150,
+      "description": "Handcrafted German knife with high-carbon stainless steel."
+    },
+    {
+      "name": "Shun Dual Core 6-Inch Utility Knife",
+      "photo_url": "https://example.com/shun-utility.jpg",
+      "price": 210,
+      "description": "Multi-purpose utility knife with 71 alternating steel layers."
+    },
+    {
+      "name": "Dalstrong Gladiator Series 8-Inch Chef's Knife",
+      "photo_url": "https://example.com/dalstrong-gladiator.jpg",
+      "price": 70,
+      "description": "Heavy-duty chef's knife with a full-tang German steel blade."
+    },
+    {
+      "name": "Yoshihiro VG-10 Damascus Gyuto 8.25-Inch Chef's Knife",
+      "photo_url": "https://example.com/yoshihiro-gyuto.jpg",
+      "price": 200,
+      "description": "Elegant Japanese gyuto knife with Damascus steel layers."
+    },
+    {
+      "name": "Shun Kanso 8-Inch Chef's Knife",
+      "photo_url": "https://example.com/shun-kanso.jpg",
+      "price": 110,
+      "description": "Rustic design with high-performance steel and a tagayasan wood handle."
+    }
+ ]
+}
+  

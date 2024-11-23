@@ -1,0 +1,107 @@
+{
+    "users":[
+        {
+            "id":1,
+            "name":"Nadejda",
+            "surname":"Grubneac",
+            "photo_url":"https://www.iconpacks.net/icons/1/free-user-icon-295-thumb.png",
+            "balance":1500
+        },
+        {
+            "id":2,
+            "name":"Dan",
+            "surname":"Mustafenco",
+            "photo_url":"https://icons-for-free.com/iff/png/512/business+face+people+icon-1320086457520622872.png",
+            "balance":2000
+        },
+        {
+            "id":3,
+            "name":"Ion",
+            "surname":"Talpa",
+            "photo_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+            "balance":1200
+        }
+    ],
+    "products":[
+        {
+            "id":1,
+            "name":"Victorita",
+            "description":"Ciocolata neagra",
+            "price":140,
+            "author_id":1,
+            "photo_url":"https://i.simpalsmedia.com/marketplace/products/original/c6081cc2fab3ff167bddf1527456a5b2.jpg"
+        },
+        {
+            "id":2,
+            "name":"Chisinau de seara",
+            "description":"Ciocolata cu prune",
+            "price":250,
+            "author_id":1,
+            "photo_url":"https://img1.zakaz.md/upload.version_1.0.b45e3705007609f9a4222524d567ea15.350x350.jpeg"
+        },
+        {
+            "id":3,
+            "name":"Visina in Ciocolata",
+            "description":"Ciocolata cu visina",
+            "price":210,
+            "author_id":2,
+            "photo_url":"https://gomagcdn.ro/domains/bucuria.ro/files/product/original/vi-in-n-ciocolat-288-3789.jpg"
+        },
+        {
+            "id":4,
+            "name":"Meteorit",
+            "description":"Ciocolata cu alune",
+            "price":190,
+            "author_id":1,
+            "photo_url":"https://gomagcdn.ro/domains/bucuria.ro/files/product/original/meteorit-351-8432.jpg"
+        },
+        {
+            "id":5,
+            "name":"Do re mi",
+            "description":"Ciocolata cu alune si jele",
+            "price":240,
+            "author_id":1,
+            "photo_url":"https://img1.zakaz.md/upload.version_1.0.5e2af2bdbe95b55eb726caef42778b9d.350x350.jpeg"
+        },
+        {
+            "id":6,
+            "name":"Moldova",
+            "description":"Ciocolata cu alune ",
+            "price":220,
+            "author_id":1,
+            "photo_url":"https://linella.md/public/products/db39ab976ea33e5252f38ad3c356aed3.webp"
+        },
+        {
+            "id":7,
+            "name":"Brandusa",
+            "description":"Ciocolata cu alune ",
+            "price":200,
+            "author_id":1,
+            "photo_url":"https://i0.wp.com/bucuriamoldovei.ro/wp-content/uploads/2023/05/cod15.png?fit=2505%2C2505&ssl=1"
+        },
+        {
+            "id":8,
+            "name":"Clepsidra",
+            "description":"Ciocolata cu cocos ",
+            "price":200,
+            "author_id":1,
+            "photo_url":"https://gomagcdn.ro/domains/bucuria.ro/files/product/original/clepsidra-216-2616.jpg"
+        },
+        {
+            "id":9,
+            "name":"Struguri in ciocolata",
+            "description":"Ciocolata cu struguri ",
+            "price":180,
+            "author_id":2,
+            "photo_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTk63HFcIbG27RSfJ0XcoHTpb_p8PuP4i7pg&s"
+        },
+        {
+            "id":10,
+            "name":"Bucurel",
+            "description":"Ciocolata neagra ",
+            "price":175,
+            "author_id":2,
+            "photo_url":"https://img1.zakaz.md/upload.version_1.0.1bf4a40517ac1a4a3f7e3211f19eaf9a.350x350.jpeg"
+        }
+    ]
+}

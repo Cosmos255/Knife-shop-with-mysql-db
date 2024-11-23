@@ -1,4 +1,5 @@
 {
+
     "users":[
         {
             "id":1,
@@ -21,87 +22,82 @@
             "photo_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
             "balance":1200
         }
+
+
     ],
-    "products":[
-        {
-            "id":1,
-            "name":"Victorita",
-            "description":"Ciocolata neagra",
-            "price":140,
-            "author_id":1,
-            "photo_url":"https://i.simpalsmedia.com/marketplace/products/original/c6081cc2fab3ff167bddf1527456a5b2.jpg"
-        },
-        {
-            "id":2,
-            "name":"Chisinau de seara",
-            "description":"Ciocolata cu prune",
-            "price":250,
-            "author_id":1,
-            "photo_url":"https://img1.zakaz.md/upload.version_1.0.b45e3705007609f9a4222524d567ea15.350x350.jpeg"
-        },
-        {
-            "id":3,
-            "name":"Visina in Ciocolata",
-            "description":"Ciocolata cu visina",
-            "price":210,
-            "author_id":2,
-            "photo_url":"https://gomagcdn.ro/domains/bucuria.ro/files/product/original/vi-in-n-ciocolat-288-3789.jpg"
-        },
-        {
-            "id":4,
-            "name":"Meteorit",
-            "description":"Ciocolata cu alune",
-            "price":190,
-            "author_id":1,
-            "photo_url":"https://gomagcdn.ro/domains/bucuria.ro/files/product/original/meteorit-351-8432.jpg"
-        },
-        {
-            "id":5,
-            "name":"Do re mi",
-            "description":"Ciocolata cu alune si jele",
-            "price":240,
-            "author_id":1,
-            "photo_url":"https://img1.zakaz.md/upload.version_1.0.5e2af2bdbe95b55eb726caef42778b9d.350x350.jpeg"
-        },
-        {
-            "id":6,
-            "name":"Moldova",
-            "description":"Ciocolata cu alune ",
-            "price":220,
-            "author_id":1,
-            "photo_url":"https://linella.md/public/products/db39ab976ea33e5252f38ad3c356aed3.webp"
-        },
-        {
-            "id":7,
-            "name":"Brandusa",
-            "description":"Ciocolata cu alune ",
-            "price":200,
-            "author_id":1,
-            "photo_url":"https://i0.wp.com/bucuriamoldovei.ro/wp-content/uploads/2023/05/cod15.png?fit=2505%2C2505&ssl=1"
-        },
-        {
-            "id":8,
-            "name":"Clepsidra",
-            "description":"Ciocolata cu cocos ",
-            "price":200,
-            "author_id":1,
-            "photo_url":"https://gomagcdn.ro/domains/bucuria.ro/files/product/original/clepsidra-216-2616.jpg"
-        },
-        {
-            "id":9,
-            "name":"Struguri in ciocolata",
-            "description":"Ciocolata cu struguri ",
-            "price":180,
-            "author_id":2,
-            "photo_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTk63HFcIbG27RSfJ0XcoHTpb_p8PuP4i7pg&s"
-        },
-        {
-            "id":10,
-            "name":"Bucurel",
-            "description":"Ciocolata neagra ",
-            "price":175,
-            "author_id":2,
-            "photo_url":"https://img1.zakaz.md/upload.version_1.0.1bf4a40517ac1a4a3f7e3211f19eaf9a.350x350.jpeg"
-        }
-    ]
+   "products":[
+    {
+      "name": "Wüsthof Classic 8-Inch Chef's Knife",
+      "photo_url": "https://www.amazon.com/W%C3%9CSTHOF-Classic-Chefs-Knife-8-Inch/dp/B08CS96H2K",
+      "price": 150,
+      "description": "A versatile chef's knife with a high-carbon stainless steel blade and ergonomic handle."
+    },
+    {
+      "name": "Shun Classic 7-Inch Santoku Knife",
+      "photo_url": "https://cutleryandmore.com/cdn/shop/products/ShunClassic7-inchSantokuKnife_900x.jpg?v=1649192648",
+      "price": 175,
+      "description": "Japanese santoku knife with a VG-MAX core and Damascus cladding for precise slicing."
+    },
+    {
+      "name": "Victorinox Fibrox Pro 8-Inch Chef's Knife",
+      "photo_url": "https://images-na.ssl-images-amazon.com/images/I/51ehlrUXfPL._AC_UL210_SR210,210_.jpg",
+      "price": 50,
+      "description": "Budget-friendly chef's knife with a comfortable grip and razor-sharp blade."
+    },
+    {
+      "name": "Zwilling J.A. Henckels Professional S 8-Inch Chef's Knife",
+      "photo_url": "https://www.zwilling.com/on/demandware.static/-/Sites-zwilling-master-catalog/default/dw2d0c0b97/images/large/31021-200-0_1.jpg",
+      "price": 120,
+      "description": "Durable and well-balanced chef's knife with precision-forged stainless steel."
+    },
+    {
+      "name": "Global G-2 8-Inch Chef's Knife",
+      "photo_url": "https://m.media-amazon.com/images/I/6185l7oAf-L.jpg",
+      "price": 130,
+      "description": "Lightweight Japanese knife with a seamless stainless steel design."
+    },
+    {
+      "name": "Miyabi Birchwood 8-Inch Chef's Knife",
+      "photo_url": "https://cutleryandmore.com/cdn/shop/products/41787_900x.jpg?v=1647540833",
+      "price": 350,
+      "description": "Premium chef's knife with SG2 micro-carbide steel and birchwood handle."
+    },
+    {
+      "name": "Mac Professional 8-Inch Chef's Knife",
+      "photo_url": "https://m.media-amazon.com/images/I/71jzF+vAv6S.jpg",
+      "price": 145,
+      "description": "Ultra-sharp Japanese knife with a thin blade and comfortable handle."
+    },
+    {
+      "name": "Mercer Culinary Millennia 8-Inch Chef's Knife",
+      "photo_url": "https://m.media-amazon.com/images/I/512ByGWVojL.jpg",
+      "price": 25,
+      "description": "Affordable chef's knife with a comfortable handle and sharp blade."
+    },
+    {
+      "name": "Tojiro DP Gyuto 8.2-Inch Chef's Knife",
+      "photo_url": "https://www.nothingbutknives.com/wp-content/uploads/2017/04/Tojiro-DP-CHef-Knife-Review.jpg",
+      "price": 90,
+      "description": "Japanese gyuto knife with VG-10 stainless steel and a composite handle."
+    },
+    {
+      "name": "Shun Premier 7-Inch Santoku Knife",
+      "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtIZM5RKjtUKep_8-iCNxW6bXBmo9OiAfelQ&s",
+      "price": 180,
+      "description": "Stylish knife with a hammered finish and razor-sharp edge."
+    },
+    {
+      "name": "Yoshihiro VG-10 Damascus Gyuto 8.25-Inch Chef's Knife",
+      "photo_url": "https://www.echefknife.com/cdn/shop/products/HDGY_PT01.jpg?v=1679439900",
+      "price": 200,
+      "description": "Elegant Japanese gyuto knife with Damascus steel layers."
+    },
+    {
+      "name": "Shun Kanso 8-Inch Chef's Knife",
+      "photo_url": "https://m.media-amazon.com/images/I/61C-X9G1P+L.jpg",
+      "price": 110,
+      "description": "Rustic design with high-performance steel and a tagayasan wood handle."
+    }
+ ]
 }
+  

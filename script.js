@@ -26,7 +26,8 @@ async function fetchDatabase(){
                                 <h2 class="product-name">${p.name}</h2>
                                 <img src="${p.photo_url}"class="products-img"></img>
                                 <p class="product-price"><b>Price: </b>${p.price}</p>
-                                <p class="product-description"><b>Description: </b>${p.description}</p>`;
+                                <p class="product-description"><b>Description: </b>${p.description}</p>
+                                <button class="add_to_cart" onclick="addProductToCart(${p.id})">Add</button>`;
                     productsGrid.append(pElem);
         });
 
@@ -39,4 +40,37 @@ async function fetchDatabase(){
 }
 
 fetchDatabase();
+
+
+let cartProd = document.getElementById("cart-products");
+
+
+let cart = [];
+
+function openCart(){
+    cartProd.classList.toggle('hide');
+}
+
+
+
+function addProductToCart(id){
+    let product = productsArray.find(function(p){
+        return p.id == id;
+    })
+    cart.push(product);
+    drawCart();
+}
+
+function drawCart(){
+    if(cart.length === 0) return cartProd.innerHTML = "Cart is empty";
+    cartProd.innerHTML = null;
+    cart.forEach(function(p){
+        cartProd.innerHTML +=`
+                <p><img src="${p.photo_url}"${p.name} | ${p.price} lei</p>
+                <hr>
+        `;
+    });
+}
+
+
 

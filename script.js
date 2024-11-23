@@ -66,7 +66,7 @@ function drawCart(){
     cartProd.innerHTML = null;
     cart.forEach(function(p){
         cartProd.innerHTML +=`
-                <p><img src="${p.photo_url}"${p.name} | ${p.price} lei</p>
+                <p><img src="${p.photo_url}"${p.name} | ${p.price} €</p>
                 <hr>
         `;
     });

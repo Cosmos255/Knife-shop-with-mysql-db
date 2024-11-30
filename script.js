@@ -2,7 +2,7 @@ let productsGrid = document.getElementById("products-grid");
 let productsArray = [];
 
 
-//I like fetch with async/await over xhr
+//I like fetch
 async function fetchDatabase(){
 
     let url="https://my-json-server.typicode.com/Cosmos255/Ceva-cu-jquery/products";
@@ -36,6 +36,7 @@ async function fetchDatabase(){
     }
     catch(error){
         console.error(error);
+        fetchDatabase();
     }
 }
 
@@ -66,7 +67,7 @@ function drawCart(){
     cartProd.innerHTML = null;
     cart.forEach(function(p){
         cartProd.innerHTML +=`
-                <p><img src="${p.photo_url}"${p.name} | ${p.price} €</p>
+                <p><img src="${p.photo_url}"><b>${p.name}</b> |<p> ${p.price} €</p>
                 <hr>
         `;
     });

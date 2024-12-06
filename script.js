@@ -65,13 +65,23 @@ function addProductToCart(id){
 function drawCart(){
     if(cart.length === 0) return cartProd.innerHTML = "Cart is empty";
     cartProd.innerHTML = null;
+    let sum = 0;
     cart.forEach(function(p){
         cartProd.innerHTML +=`
-                <p><img src="${p.photo_url}"><b>${p.name}</b> |<p> ${p.price} €</p>
+                <div class="ProductCart">
+                <p><img src="${p.photo_url}"><b>${p.name}</b> | <p> ${p.price} €</p>
                 <hr>
+                
         `;
+            sum = p.price;
     });
+    cartProd.innerHTML += `
+                            <p class="total">Total Price:<b> ${sum} €</b></p>
+                            <button class="add_to_cart buy_all">Buy</button>`;
 }
 
-
+function buy_all(){
+    cart=[];
+    cartProd.innerHTML = ""
+}
 

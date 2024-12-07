@@ -80,8 +80,36 @@ function drawCart(){
                             <button class="add_to_cart buy_all">Buy</button>`;
 }
 
+let modal = document.getElementById("myModal");
+let span = document.getElementsByClassName('close')[0];
+let orderElem = document.getElementById("order-block");
+
+span.onclick = function closespan(){
+    modal.style.display = "none";
+}
+
+window.onclick = function(){
+    if(event.target == modal){
+        modal.style.display = "none";
+    }
+    modal.style.display = "none";
+}
+
+
+
 function buy_all(){
-    cart=[];
-    cartProd.innerHTML = ""
+//    cart=[];
+//    cartProd.innerHTML = "Money was withdrawn from you credit card";
+    modal.style.display = "block";
+    orderElem.innerHTML = null;
+    CacheStorage.forEach(function(p){
+        orderElem.innerHTML +=`
+                        <div class="item">
+                            <img src="${p.photo_url}" width="70px">
+                            <h2>${p.name} | ${p.price}</h2>
+                        </div>    
+        
+        `;
+    })
 }
 

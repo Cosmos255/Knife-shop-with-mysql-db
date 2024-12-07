@@ -4,6 +4,7 @@ async function users_db(){
   try{
 
     const response = await fetch(url, {
+      mode: "no-cors",
       method: "get",
       headers: new Headers({
         "ngrok-skip-browser-warning": "69420",

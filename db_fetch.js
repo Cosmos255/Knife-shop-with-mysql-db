@@ -4,7 +4,6 @@ async function users_db(){
   try{
 
     const response = await fetch(url, {
-      mode: "no-cors",
       method: "get",
       headers: new Headers({
         "ngrok-skip-browser-warning": "69420",
@@ -15,7 +14,7 @@ async function users_db(){
         throw new Error("couldnt fetch data");
     }
 
-    const data = await response.json()
+    const data = await response.json();
     console.log(data);
 
   }

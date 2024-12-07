@@ -1,9 +1,14 @@
 async function users_db(){
-  const url = "https://088e-188-237-141-73.ngrok-free.app";
+  const url = "https://eb77-188-237-141-73.ngrok-free.app/api/data";
 
   try{
 
-    const response = await fetch(url);
+    const response = await fetch(url, {
+      method: "get",
+      headers: new Headers({
+        "ngrok-skip-browser-warning": "69420",
+      }),
+    });
 
     if(!response.ok){
         throw new Error("couldnt fetch data");
@@ -12,16 +17,10 @@ async function users_db(){
     const data = await response.json()
     console.log(data);
 
-    window.globalThis = data;
-
-
   }
   catch(error){
     console.error(error);
   }
 }
-
-
-console.log(globalThis);
 
 users_db();

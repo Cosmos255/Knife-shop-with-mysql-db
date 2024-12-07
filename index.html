@@ -28,7 +28,15 @@
 
     <div id="myModal" class="modal">
         <div class="modal-content">
-            Hello
+            <span class="close">&times;</span>
+            <div id="order-block"></div>
+            <form id="order-form"></form>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="address" name="address" placeholder="Address" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="number" name="number" placeholder="Telephone">
+                <h2>Total Price: <span id="price"></span></h2>
+                <input type="submit" value="Order">
         </div>
     </div>
 

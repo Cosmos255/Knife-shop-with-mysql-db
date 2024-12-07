@@ -165,9 +165,39 @@ header{
 }
 
 .modal-content{
-    background-color: white;
+    background-color: rgb(49, 49, 49);
     margin: 5vh auto;
     padding: 20px;
     border: 1px solid black;
     width: 80%;
+}
+
+.close{
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#order-form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#order-form input{
+    font-size: 1.5rem;
+    padding: 0.4rem 1rem;
+}
+
+.order_button{
+    background-color: #F5CB5C;
+    border-radius: 10px;
+
+}
+.order_button:hover{
+    background-color: #595959;
+    cursor: pointer;
 }

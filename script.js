@@ -77,7 +77,7 @@ function drawCart(){
     });
     cartProd.innerHTML += `
                             <p class="total">Total Price:<b> ${sum} €</b></p>
-                            <button class="add_to_cart buy_all">Buy</button>`;
+                            <button class="add_to_cart buy_all" onclick="buy_all()">Buy</button>`;
 }
 
 let modal = document.getElementById("myModal");
@@ -92,7 +92,6 @@ window.onclick = function(){
     if(event.target == modal){
         modal.style.display = "none";
     }
-    modal.style.display = "none";
 }
 
 
@@ -102,7 +101,7 @@ function buy_all(){
 //    cartProd.innerHTML = "Money was withdrawn from you credit card";
     modal.style.display = "block";
     orderElem.innerHTML = null;
-    CacheStorage.forEach(function(p){
+    cart.forEach(function(p){
         orderElem.innerHTML +=`
                         <div class="item">
                             <img src="${p.photo_url}" width="70px">

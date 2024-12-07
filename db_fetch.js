@@ -18,7 +18,6 @@ async function users_db(){
   }
   catch(error){
     console.error(error);
-    users_db();
   }
 }
 

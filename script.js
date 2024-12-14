@@ -16,7 +16,6 @@ async function fetchDatabase(){
         }
 
         const data = await response.json()
-        console.log(data);
         productsGrid.innerHTML = null;
         data.forEach(p =>{
             productsArray.push(p);
@@ -63,7 +62,9 @@ function addProductToCart(id){
 }
 
 function drawCart(){
-    if(cart.length === 0) return cartProd.innerHTML = "Cart is empty";
+    if(cart.length === 0){
+         return cartProd.innerHTML = "Cart is empty";
+    }
     cartProd.innerHTML = null;
     let sum = 0;
     cart.forEach(function(p){
@@ -73,7 +74,7 @@ function drawCart(){
                 <hr>
                 
         `;
-            sum = p.price;
+            sum += p.price;
     });
     cartProd.innerHTML += `
                             <p class="total">Total Price:<b> ${sum} €</b></p>

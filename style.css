@@ -199,3 +199,21 @@ header{
     background-color: #595959;
     cursor: pointer;
 }
+
+.item{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;    
+    color: white;
+    
+
+}
+
+#order-block{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}

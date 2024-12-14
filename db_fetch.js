@@ -1,5 +1,5 @@
 async function users_db(){
-  const url = "https://eb77-188-237-141-73.ngrok-free.app/api/data";
+  const url = "https://bd7d-188-237-141-73.ngrok-free.app/api/data";
 
   try{
 

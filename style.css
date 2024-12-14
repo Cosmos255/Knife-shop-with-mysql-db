@@ -192,9 +192,6 @@ header{
     padding: 0.4rem 1rem;
 }
 
-.order_button{
-
-}
 .order_button:hover{
     background-color: #595959;
     cursor: pointer;

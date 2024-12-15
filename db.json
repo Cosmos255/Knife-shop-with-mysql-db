@@ -1,30 +1,4 @@
 {
-
-    "users":[
-        {
-            "id":1,
-            "name":"Nadejda",
-            "surname":"Grubneac",
-            "photo_url":"https://www.iconpacks.net/icons/1/free-user-icon-295-thumb.png",
-            "balance":1500
-        },
-        {
-            "id":2,
-            "name":"Dan",
-            "surname":"Mustafenco",
-            "photo_url":"https://icons-for-free.com/iff/png/512/business+face+people+icon-1320086457520622872.png",
-            "balance":2000
-        },
-        {
-            "id":3,
-            "name":"Ion",
-            "surname":"Talpa",
-            "photo_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
-            "balance":1200
-        }
-
-
-    ],
    "products":[
     {
       "id": 1,

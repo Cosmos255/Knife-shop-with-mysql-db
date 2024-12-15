@@ -26,7 +26,8 @@ async function fetchDatabase(){
                                 <img src="${p.photo_url}"class="products-img"></img>
                                 <p class="product-price"><b>Price: </b>${p.price} €</p>
                                 <p class="product-description"><b>Description: </b>${p.description}</p>
-                                <button class="add_to_cart" onclick="addProductToCart(${p.id})">Add</button>`;
+                                <button class="add_to_cart" onclick="addProductToCart(${p.id})">Add</button>
+                                `;
                     productsGrid.append(pElem);
         });
 
@@ -86,6 +87,7 @@ function drawCart() {
 
     cartProd.innerHTML += `
         <p class="total">Total Price: <b>${sum} €</b></p>
+        <button class="add_to_cart buy_all clear_all" onclick="clear_all()">Clear</button>
         <button class="add_to_cart buy_all" onclick="buy_all()">Buy</button>
     `;
 }
@@ -120,4 +122,11 @@ function buy_all(){
         `;
     })
 }
+
+function clear_all(){
+    localStorage.setItem("cart", "[]");
+    cart = [];
+    drawCart();
+}
+
 

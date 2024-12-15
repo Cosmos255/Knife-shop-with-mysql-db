@@ -83,9 +83,14 @@ header{
     padding: 3px 0;
     background-color: #F5CB5C;
     border: 1px;
-    border-radius: 4px;
+    border-radius: 4px;  
     
 }
+
+.clear_all{
+    float: right;
+}
+
 
 .add_to_cart:hover{
     background-color:  #595959;
